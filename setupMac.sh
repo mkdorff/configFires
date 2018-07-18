@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ZSH, Oh my!
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh::g' | sed 's:chsh -s .*$::g')"
 rm $HOME/.zshrc
 
 # Link config files
