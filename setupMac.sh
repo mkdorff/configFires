@@ -12,7 +12,7 @@ ln -s "$CONFIG_PATH/gitignore_global" "$HOME/.gitignore_global"
 # Binaries
 brew install mas nvm mongodb mysql redis ripgrep tldr tree neovim zsh
 # GUI Apps
-brew cask install google-chrome cheatsheet docker firefox iterm2 leech mplayerx openemu pdf-expert postman principle sequal-pro sketch slack spectacle spotify the-unarchiver transmission visual-studio-code windscribe
+brew cask install google-chrome cheatsheet docker firefox iterm2 leech mplayerx openemu pdf-expert postman principle sequel-pro sketch slack spectacle spotify the-unarchiver transmission visual-studio-code windscribe
 source "$HOME/.zshrc"
 # AppStore Apps
 mas signin mohonrid@gmail.com
