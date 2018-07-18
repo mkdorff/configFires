@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Link config files
-ln -s "$HOME/Documents/zshrc" "$HOME/.zshrc"
+ln -s "$HOME/Documents/configFiles/zshrc" "$HOME/.zshrc"
 source "$HOME/.zshrc"
 ln -s "$CONFIG_PATH/vimrc" "$HOME/.vimrc"
 ln -s "$CONFIG_PATH/gitconfig" "$HOME/.gitconfig"
@@ -51,3 +51,5 @@ nvm install node
 
 # Firefox
 
+
+# option to 
