@@ -15,6 +15,6 @@ plugins=(
   git
 )
 
-# source $ZSH/oh-my-zsh.sh
-
-# Added by install scripts:
+source $ZSH/oh-my-zsh.sh
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
