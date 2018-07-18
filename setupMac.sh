@@ -32,6 +32,7 @@ sudo xcodebuild -license accept
 mas upgrade
 
 # NVM
+mkdir ~/.nvm
 ln -s "$CONFIG_PATH/default-packages" "$NVM_DIR/default-packages"
 nvm install node
 
