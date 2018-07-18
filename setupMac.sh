@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Link config files
+ln -s "$HOME/Documents/zshrc" "$HOME/.zshrc"
+source "$HOME/.zshrc"
+ln -s "$CONFIG_PATH/vimrc" "$HOME/.vimrc"
+ln -s "$CONFIG_PATH/gitconfig" "$HOME/.gitconfig"
+ln -s "$CONFIG_PATH/gitignore_global" "$HOME/.gitignore_global"
+
 # Start with brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null
 # Binaries
@@ -19,20 +26,16 @@ mas upgrade
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-
-
-# Configs
-
-
 # NVM
+ln -s "$CONFIG_PATH/default-packages" "$NVM_DIR/default-packages"
+nvm install node
 
+# App Specific AppleScripts
 
 # Misc
 # Fonts
 # Wallpapers
 # Misc Apple Scripts?
-
-
 
 # Chrome:
 # Prompt to set default and send stats

@@ -1,4 +1,9 @@
-# configFires
-Arr the things
+# configFiles
+0 to 100, real quick
 
-Run the setup
+Gotta configure git:
+
+
+
+Assumptions:
+User name for computer is 'mohonri'

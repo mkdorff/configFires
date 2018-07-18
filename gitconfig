@@ -1,0 +1,14 @@
+[user]
+	name = mkdorff
+	email = mkdorff@outlook.com
+[core]
+	excludesfile = /Users/mohonri/.gitignore_global
+[alias]
+	co = checkout
+	cob = checkout -b
+	cm = commit -a -m
+	s = status
+	b = branch
+  po = push -u origin
+[url "https://github.com/"]
+	insteadOf = git://github.com/
