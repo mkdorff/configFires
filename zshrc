@@ -15,6 +15,6 @@ plugins=(
   git
 )
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 # Added by install scripts:
