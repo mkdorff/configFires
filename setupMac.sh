@@ -12,15 +12,17 @@ ln -s "$CONFIG_PATH/gitignore_global" "$HOME/.gitignore_global"
 # Binaries
 brew install mas nvm mongodb mysql redis ripgrep tldr tree neovim zsh
 # GUI Apps
-brew cask install google-chrome cheatsheet docker firefox iterm2 leech mplayerx openemu pdf-expert postman principle sequel-pro sketch slack spectacle spotify the-unarchiver transmission visual-studio-code windscribe
+brew cask install google-chrome cheatsheet docker firefox iterm2 leech mplayerx openemu pdf-expert postman principle \
+                  sequel-pro sketch slack spectacle spotify the-unarchiver transmission visual-studio-code windscribe
 source "$HOME/.zshrc"
 # AppStore Apps
-mas signin mohonrid@gmail.com
+mas signin mohonrid@gmail.com # Just in case
 mas install 784801555  # OneNote 16.15
 mas install 409201541  # Pages 7.1
 mas install 1176895641 # Spark 2.0.8
-mas install 497799835  # Xcode 9.4.1
 mas install 585829637  # Todoist 7.0.14
+mas install 497799835  # Xcode 9.4.1
+sudo xcodebuild -license accept
 mas upgrade
 
 # ZSH, Oh my!
@@ -53,3 +55,6 @@ nvm install node
 
 
 # option to 
+
+
+# Under Prefs:
