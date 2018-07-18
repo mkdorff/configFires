@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# ZSH, Oh my!
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+rm $HOME/.zshrc
+
 # Link config files
 ln -s "$HOME/Documents/configFiles/zshrc" "$HOME/.zshrc"
 source "$HOME/.zshrc"
@@ -9,8 +13,9 @@ ln -s "$CONFIG_PATH/gitignore_global" "$HOME/.gitignore_global"
 
 # Start with brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null
-# Binaries
+# Binaries & set default zsh
 brew install mas nvm mongodb mysql redis ripgrep tldr tree neovim zsh
+sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 # GUI Apps
 brew cask install google-chrome cheatsheet docker firefox iterm2 leech mplayerx openemu pdf-expert postman principle \
                   sequel-pro sketch slack spectacle spotify the-unarchiver transmission visual-studio-code windscribe
@@ -24,10 +29,6 @@ mas install 585829637  # Todoist 7.0.14
 mas install 497799835  # Xcode 9.4.1
 sudo xcodebuild -license accept
 mas upgrade
-
-# ZSH, Oh my!
-sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # NVM
 ln -s "$CONFIG_PATH/default-packages" "$NVM_DIR/default-packages"
