@@ -16,7 +16,7 @@ ln -s "$CONFIG_PATH/gitignore_global" "$HOME/.gitignore_global"
 # Binaries & set default zsh
 brew install mas nvm mongodb mysql redis ripgrep tldr tree neovim zsh
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
-echo "source $(brew --prefix nvm)/nvm.sh" >> source "$HOME/.zshrc"
+echo "source $(brew --prefix nvm)/nvm.sh" >> "$HOME/.zshrc"
 # GUI Apps
 brew cask install google-chrome cheatsheet docker firefox iterm2 leech mplayerx openemu pdf-expert postman principle \
                   sequel-pro sketch slack spectacle spotify the-unarchiver transmission visual-studio-code windscribe
@@ -34,6 +34,7 @@ mas upgrade
 # NVM
 mkdir ~/.nvm
 ln -s "$CONFIG_PATH/default-packages" "$NVM_DIR/default-packages"
+source "$HOME/.zshrc"
 nvm install node
 
 # App Specific AppleScripts
