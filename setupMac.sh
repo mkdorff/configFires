@@ -62,6 +62,7 @@ nvm install node
 # PDFExpert: enter key, also, idk find the key?
 # Xcode: enter creds?
 # Sketch: enter key, idk find the key?
+# Windscribe: login
 # Startup items: disable
 # Device enrollment, disable
 
