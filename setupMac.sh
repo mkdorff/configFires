@@ -39,6 +39,7 @@ source "$HOME/.zshrc"
 nvm install node
 
 # App Specific AppleScripts
+osascript "$CONFIG_SCRIPTS/fonts.scpt"
 
 # ...then
 # Fonts

@@ -9,6 +9,7 @@ alias kan='killall node'
 export ZSH=$HOME/.oh-my-zsh
 export EDITOR='nvim'
 export CONFIG_PATH=$HOME/Documents/configFiles
+export CONFIG_SCRIPTS=$HOME/Documents/configFiles/applescripts
 ZSH_THEME="robbyrussell"
 
 plugins=(

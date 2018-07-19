@@ -11,4 +11,5 @@ This gets us 80% there. Everything else is manual and as I get better at AppleSc
 will be automated.
 
 ## Assumptions:
-User name for computer is 'mohonri'
+1. User name for computer is 'mohonri'
+2. Path of this configFiles folder: /Users/mohonri/Documents/configFiles
