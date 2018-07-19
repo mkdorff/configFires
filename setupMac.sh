@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ZSH, Oh my!
+# ZSH, Oh my! - This is hacky
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh::g' | sed 's:chsh -s .*$::g')"
 rm $HOME/.zshrc
 
@@ -16,7 +16,6 @@ ln -s "$CONFIG_PATH/gitignore_global" "$HOME/.gitignore_global"
 # Binaries & set default zsh
 brew install mas nvm mongodb mysql redis ripgrep tldr tree neovim zsh
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
-echo "source $(brew --prefix nvm)/nvm.sh" >> "$HOME/.zshrc"
 # GUI Apps
 brew cask install google-chrome cheatsheet docker firefox iterm2 leech mplayerx openemu pdf-expert postman principle \
                   sequel-pro sketch slack spectacle spotify the-unarchiver transmission visual-studio-code windscribe
@@ -39,26 +38,36 @@ nvm install node
 
 # App Specific AppleScripts
 
-# Misc
+# ...then
 # Fonts
-# Wallpapers
-# Misc Apple Scripts?
+# Prefs:
+#   Wallpapers, change picture, random
+#   Screensavers?
+#   Hot spots
+#   sec & priv -> privacy -> accessibily -> cheatsheet/spectacle
+#   Accesibilty -> Speech, Alex, Fastest, shortcut: control+option+command+space
+#   Adjust Dock size, magnify, hide
+#   Display, Retina, scale high
+#   Allow apps from unindentifed developers
+#   24 hour clock
+# Menu bar: minimalize - wifi, battery, clock
+# Update Mac
+# Setup RSA (SSH w/ Github)
+# Setup Chrome (NOT Default, Never ask, don't import), Login mohonrid@gmail & mk@dorff...
+# Spotify: Login
+# Spark: Login
+# vscode: extensions, command line install, settings
+# OneNote: Login
+# Todoist: Login
+# PDFExpert: enter key
+# Xcode: enter creds?
+# Sketch: enter key
+# Startup items: disable
+# Device enrollment, disable
 
-# Chrome:
-# Prompt to set default and send stats
-
-# vscode:
-# other configs
-
-# cheatsheet
-# prefs > security & privacy > accessibility
-
-# Docker
-
-# Firefox
-
-
-# option to 
-
-
-# Under Prefs:
+# Manual
+# OpenEmu - Ya know
+# Download:
+#   Fusion 360
+#   Adobe Photoshop & XD
+#   Invision Studio
