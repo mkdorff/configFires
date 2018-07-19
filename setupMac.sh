@@ -59,9 +59,9 @@ nvm install node
 # vscode: extensions, command line install, settings
 # OneNote: Login
 # Todoist: Login
-# PDFExpert: enter key
+# PDFExpert: enter key, also, idk find the key?
 # Xcode: enter creds?
-# Sketch: enter key
+# Sketch: enter key, idk find the key?
 # Startup items: disable
 # Device enrollment, disable
 
