@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # ZSH, Oh my! - This is hacky
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh::g' | sed 's:chsh -s .*$::g')"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh::g' | sed 's:chsh -s .*$::g')"
+# Using a ghetto branch that doesn't run a new zsh session after install. Refer: https://github.com/robbyrussell/oh-my-zsh/issues/5873
+sh -c "$(curl -fsSL https://github.com/loket/oh-my-zsh/blob/4d5fa086bb3740a286d3fd5130f19e1ad8654864/tools/install.sh)" -s --batch && echo "Install complete!"
 rm $HOME/.zshrc
 
 # Link config files
