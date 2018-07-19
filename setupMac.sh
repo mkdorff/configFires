@@ -39,6 +39,7 @@ source "$HOME/.zshrc"
 nvm install node
 
 # App Specific AppleScripts
+osacompile "$CONFIG_SCRIPTS/menu_click_source.scpt" "$CONFIG_SCRIPTS/menu_click.scpt"
 osascript "$CONFIG_SCRIPTS/fonts.scpt"
 
 # ...then
