@@ -3,9 +3,12 @@
 ---
 
 ## Instructions:
+0. Make sure your username is 'mohonri'! If it is not, it will be a pain later.
 1. `cd $HOME/Documents` - Executive decision to have this under Documents
 2. `git` - This prompts the install for xcode command line tools 
-3. `git clone https://github.com/mkdorff/configFiles.git && cd configFiles && chmod +x setupMac.sh && ./setupMac.sh`
+3. ### ADD HERE ### dummy osascript to give us prompt to allow terminal to use accesibilty
+4. `git clone https://github.com/mkdorff/configFiles.git && cd configFiles && chmod +x setupMac.sh && ./setupMac.sh`
+5. Final manual configs, refer to `setupMac.sh`
 
 This gets us 80% there. Everything else is manual and as I get better at AppleScript (JS works too now?), more things
 will be automated.
