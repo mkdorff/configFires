@@ -30,7 +30,6 @@ tell application "System Events"
 	end repeat
 	key code 49
 	delay 2
-	-- quit
 end tell
 
 tell application "Font Book" to quit

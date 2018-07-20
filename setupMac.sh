@@ -40,6 +40,7 @@ nvm install node
 
 # App Specific AppleScripts
 osascript "$CONFIG_SCRIPTS/fonts.scpt"
+osascript "$CONFIG_SCRIPTS/finish.scpt"
 
 # ...then
 # Fonts
