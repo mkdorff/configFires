@@ -9,7 +9,6 @@
 4. `git clone https://github.com/mkdorff/configFiles.git && cd configFiles`
 5. `osascript applescripts/init.scpt` - Will be informed that terminal does not have accessibility rights, enable this
 6. `chmod +x setupMac.sh && ./setupMac.sh`
-90. *** Revert "Full Keyboard Access" to default *** write script to do this 
 7. remove terminal from accessibilty control
 8. Final manual configs, refer to `setupMac.sh`
 
