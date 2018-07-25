@@ -8,28 +8,28 @@ end tell
 
 tell application "System Events"
 	-- adding fonts 
-	delay 0.4
+	delay 0.8
 	key code 5 using {shift down, command down}
-	delay 0.4
+	delay 0.8
 	keystroke "~/Documents/configFiles/assets"
 	delay 0.8
 	key code 36
 	repeat 2 times
 		key code 125
-		delay 0.4
+		delay 0.8
 	end repeat
 	key code 36
-	delay 12 -- processing
+	delay 15 -- processing
 	-- Ignore errors
 	key code 48
-	delay 0.4
+	delay 0.8
 	key code 49
 	repeat 2 times
 		key code 48
-		delay 0.4
+		delay 0.8
 	end repeat
 	key code 49
-	delay 2
+	delay 4
 end tell
 
 tell application "Font Book" to quit

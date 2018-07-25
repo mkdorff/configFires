@@ -36,12 +36,21 @@ ln -s "$CONFIG_PATH/default-packages" "$NVM_DIR/default-packages"
 source "$HOME/.zshrc"
 nvm install node
 
+# Dock
+mkdir ~/Documents/Projects
+rm "$HOME/Library/Preferences/com.apple.dock.plist"
+ln -s "$CONFIG_PATH/dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
+killall Dock
+
 # App Specific AppleScripts
 osascript "$CONFIG_SCRIPTS/fonts.scpt"
-osascript "$CONFIG_SCRIPTS/finish.scpt"
+# osascript "$CONFIG_SCRIPTS/finish.scpt"
+
+# Make folders / Projects
+# Configure Dock
+# Git pull projects into projects
 
 # ...then
-# Fonts
 # Prefs:
 #   Wallpapers, change picture, random
 #   Screensavers?
@@ -72,6 +81,6 @@ osascript "$CONFIG_SCRIPTS/finish.scpt"
 # Manual
 # OpenEmu - Ya know
 # Download:
-#   Fusion 360
+#   Fusion 360 & Eagle
 #   Adobe Photoshop & XD
 #   Invision Studio
