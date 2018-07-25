@@ -36,7 +36,7 @@ ln -s "$CONFIG_PATH/default-packages" "$NVM_DIR/default-packages"
 source "$HOME/.zshrc"
 nvm install node
 
-# Dock
+# Dock - This may or may not work
 mkdir ~/Documents/Projects
 rm "$HOME/Library/Preferences/com.apple.dock.plist"
 ln -s "$CONFIG_PATH/dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
@@ -44,11 +44,7 @@ killall Dock
 
 # App Specific AppleScripts
 osascript "$CONFIG_SCRIPTS/fonts.scpt"
-# osascript "$CONFIG_SCRIPTS/finish.scpt"
-
-# Make folders / Projects
-# Configure Dock
-# Git pull projects into projects
+osascript "$CONFIG_SCRIPTS/finish.scpt"
 
 # ...then
 # Prefs:
@@ -80,6 +76,7 @@ osascript "$CONFIG_SCRIPTS/fonts.scpt"
 
 # Manual
 # OpenEmu - Ya know
+# Git pull projects into projects
 # Download:
 #   Fusion 360 & Eagle
 #   Adobe Photoshop & XD
