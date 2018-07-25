@@ -1,5 +1,4 @@
 # Config Files
----
 
 ## Instructions:
 1. Make sure your username is 'mohonri'! If it is not, it will be a pain later.
@@ -13,6 +12,10 @@
 
 This gets us 80% there. Everything else is manual and as I get better at AppleScript (JS works too now?), more things
 will be automated.
+
+## Device Enrollment:
+`/System/Library/LaunchAgents/com.apple.ManagedClientAgent.*.plist` to `/Library/LaunchAgentsDisabled/`
+`/System/Library/LaunchDaemons/com.apple.ManagedClient.*.plist` to `/Library/LaunchDaemonsDisabled/`
 
 ## Assumptions:
 1. User name for computer is 'mohonri'
