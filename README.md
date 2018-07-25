@@ -1,5 +1,4 @@
 # Config Files
-0 to 100, real quick
 ---
 
 ## Instructions:
