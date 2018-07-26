@@ -53,7 +53,6 @@ osascript "$CONFIG_SCRIPTS/finish.scpt"
 #   Hot spots
 #   sec & priv -> privacy -> accessibily -> cheatsheet/spectacle
 #   Accesibilty -> Speech, Alex, Fastest, shortcut: control+option+command+space
-#   Adjust Dock size, magnify, hide
 #   Display, Retina, scale high
 #   Allow apps from unindentifed developers
 #   24 hour clock
