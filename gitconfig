@@ -2,7 +2,7 @@
 	name = mkdorff
 	email = mkdorff@outlook.com
 [core]
-	excludesfile = /Users/mohonri/.gitignore_global
+	excludesfile = /Users/mohonri/.gitignore-global
 [alias]
 	co = checkout
 	cob = checkout -b
