@@ -14,7 +14,8 @@ ln -s "$CONFIG_PATH/gitignore_global" "$HOME/.gitignore_global"
 # Start with brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null
 # Binaries & set default zsh
-brew install mas nvm mongodb mysql redis ripgrep tldr tree neovim zsh
+brew install mas mongodb mysql neovim nvm pipenv pyenv redis ripgrep tldr tree watchman zsh
+brew install yarn --without-node
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 # GUI Apps
 brew cask install google-chrome cheatsheet docker firefox iterm2 leech mplayerx openemu pdf-expert postman principle \

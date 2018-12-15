@@ -19,3 +19,4 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 export NVM_DIR=~/.nvm
 test -e $(brew --prefix nvm)/nvm.sh && source $(brew --prefix nvm)/nvm.sh
+test $(command -v pyenv) && eval "$(pyenv init -)"
