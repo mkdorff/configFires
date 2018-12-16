@@ -2,6 +2,7 @@
 
 ## Instructions:
 1. Make sure your username is 'mohonri'! If it is not, it will be a pain later.
+    1. *If you're on Mojave or newer, sign into the App Store manually first*
 2. `cd $HOME/Documents` - Executive decision to have this under Documents
 3. `git` - This prompts the install for xcode command line tools 
 4. `git clone https://github.com/mkdorff/configFiles.git && cd configFiles`
